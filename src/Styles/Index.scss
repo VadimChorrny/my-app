@@ -1,0 +1,133 @@
+@import './Colors.scss';
+
+.header_containeer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-button{
+    color: #FFFFFF;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.block-logo{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+}
+
+.block-logo span{
+    color: #FF4E50;
+}
+
+.block-contact{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.menu-button:hover p{
+    color: #2E4053;
+    animation: changePlace 2s;
+}
+
+.menu-button button{
+    border: none;
+}
+
+.menu-button p{
+    color: #fff;
+}
+
+
+.underline{
+    height: 5px;
+    width: 30px;
+    background-color: #FF4E50;
+}
+
+.underline-head{
+    float: left;
+}
+
+.underline-down{
+    float: right;
+}
+
+// ================= CONTENTS =================
+
+.content_containeer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+
+.content_containeer h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.content_containeer p{
+    color: #FF4E50;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+// ================================= FOOTER ================================
+
+.footer-containeer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer-containeer span{
+    color: #FF4E50;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.footer-containeer p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 1536px) {
+    .content_containeer{
+        margin-top: 30px;
+    }
+    
+    .footer-containeer{
+        margin-top: 30px;
+    }
+}
+
+@keyframes changePlace{
+    100%{
+        .underline-down{
+            float: left;
+        }
+        .underline-head{
+            float: right;
+        }
+    }
+}
