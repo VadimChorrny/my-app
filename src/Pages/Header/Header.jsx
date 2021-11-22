@@ -7,23 +7,23 @@ export default function Header() {
             <div className="block block-row">
                 <div class="menu-button">
                     <button>
-                        <p>Works</p>
+                        <a href="#">Works</a>
                     </button>
                 </div>
                 <div class="menu-button">
                     <button>
-                        <p>Skills</p>
+                        <a href="#">Skills</a>
                     </button>
                 </div>
             </div>
             <div className="block block-logo">
-                <span>Vadim</span> Chorrny
+                <a href="#"><span>Vadim</span> Chorrny</a>
             </div>
             <div className="block block-contact">
                 <div className="menu-button" id="menu-contact">
                     <div class="underline underline-head"></div>
                     <button>
-                        <p>Contact</p>
+                        <a href="#">Contact</a>
                     </button>
                     <div class="underline underline-down"></div>
                 </div>

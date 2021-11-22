@@ -8,6 +8,7 @@
 
 .block-row{
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -19,21 +20,34 @@
     font-size: 20px;
 }
 
+.menu-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .block-logo{
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
-    padding-top: 0.5rem;
+    text-decoration: none;
 }
 
 .block-logo span{
     color: #FF4E50;
+    text-decoration: none;
 }
+
+.block-logo a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .block-contact{
     display: flex;
     flex-direction: column;
     width: 10%;
+    margin-top: 10px;
 }
 
 .menu-button:hover p{
