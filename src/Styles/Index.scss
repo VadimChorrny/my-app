@@ -50,9 +50,10 @@
     margin-top: 10px;
 }
 
-.menu-button:hover p{
-    color: #2E4053;
-    animation: changePlace 2s;
+.menu-button:hover a{
+    color: #FF4E50;
+    animation: changePlace 1s;
+    transition: 0.5s;
 }
 
 .menu-button button{
@@ -136,12 +137,12 @@
 }
 
 @keyframes changePlace{
-    100%{
+    to{
         .underline-down{
-            float: left;
+            float: right;
         }
         .underline-head{
-            float: right;
+            float: left;
         }
     }
 }
